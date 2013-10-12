@@ -10,7 +10,7 @@
         </Grid.RowDefinitions>
         
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10,10,10,10">
-            <Button Width="100" Command="{Binding AddGoatsCommand}">Add Goats</Button>
+            <Button Width="100" Command="{Binding AddGoatsCommand}">Add Goats!</Button>
             <TextBox Width="100" HorizontalContentAlignment="Center" Text="{Binding NumberGoatsToAdd}"></TextBox>
         </StackPanel>
 
